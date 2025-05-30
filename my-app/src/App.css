@@ -1,1 +1,55 @@
-/* Cleared App.css as per instructions */
+/* General App Layout */
+.app-container {
+  padding: 16px; /* Similar to p-4 */
+}
+
+/* Navigation Styles */
+.app-nav {
+  background-color: #e5e7eb; /* Similar to bg-gray-200 */
+  padding: 8px; /* Similar to p-2 */
+  margin-bottom: 16px; /* Similar to mb-4 */
+  border-radius: 4px; /* Similar to rounded */
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-list li + li {
+  margin-left: 16px; /* Similar to space-x-4 */
+}
+
+.nav-link {
+  color: #3b82f6; /* Similar to text-blue-500 */
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: #1d4ed8; /* Similar to hover:text-blue-700 */
+  text-decoration: underline;
+}
+
+/* Content Area Styles */
+.content-container {
+  padding: 16px; /* Similar to p-4 */
+  border: 1px solid #d1d5db; /* Similar to border */
+  border-radius: 4px; /* Similar to rounded */
+}
+
+/* Default body and code styles (can be kept from original CRA if desired, or added if missing) */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
